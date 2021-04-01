@@ -1,5 +1,7 @@
 ﻿using MediatR;
 using SpeedParking.Application.Command;
+using SpeedParking.Domain.Entities;
+using SpeedParking.Domain.Interface;
 using System.Threading;
 using System.Threading.Tasks;
 

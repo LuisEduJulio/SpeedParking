@@ -18,7 +18,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SpeedParking.Applications\SpeedParking.Applications.csproj" />
+    <ProjectReference Include="..\SpeedParking.Application\SpeedParking.Application.csproj" />
     <ProjectReference Include="..\SpeedParking.Domains\SpeedParking.Domain.csproj" />
+    <ProjectReference Include="..\SpeedParking.Domain\SpeedParking.Domain.csproj" />
   </ItemGroup>
 
 </Project>

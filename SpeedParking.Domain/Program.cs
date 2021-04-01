@@ -1,9 +1,12 @@
-﻿namespace SpeedParking.Domain
+﻿using System;
+
+namespace SpeedParking.Domain
 {
-    internal class Program
+    class Program
     {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
         }
     }
 }

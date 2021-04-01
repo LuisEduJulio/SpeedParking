@@ -74,6 +74,76 @@
         }
       }
     },
+    "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\SpeedParking.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\SpeedParking.Application.csproj",
+        "projectName": "SpeedParking.Application",
+        "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\SpeedParking.Application.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj": {
+                "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domains\\SpeedParking.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -82,6 +152,66 @@
         "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domains\\SpeedParking.Domain.csproj",
         "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domains\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj",
+        "projectName": "SpeedParking.Domain",
+        "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -167,8 +297,14 @@
               "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Applications\\SpeedParking.Applications.csproj": {
                 "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Applications\\SpeedParking.Applications.csproj"
               },
+              "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\SpeedParking.Application.csproj": {
+                "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Application\\SpeedParking.Application.csproj"
+              },
               "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domains\\SpeedParking.Domain.csproj": {
                 "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domains\\SpeedParking.Domain.csproj"
+              },
+              "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj": {
+                "projectPath": "C:\\Users\\luis_\\source\\repos\\SpeedParking\\SpeedParking.Domain\\SpeedParking.Domain.csproj"
               }
             }
           }
